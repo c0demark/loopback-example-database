@@ -4,11 +4,12 @@
     "connector": "memory"
   },
   "accountDS": {
-    "host": "demo.strongloop.com",
+    "host": "localhost",
     "port": 27017,
-    "database": "demo",
-    "username": "demo",
-    "password": "L00pBack",
+    "url": "mongodb://localhost:27017/loopback-example-database",
+    "database": "loopback-example-database",
+    "username": "root",
+    "password": "root",
     "name": "accountDS",
     "connector": "mongodb"
   }
